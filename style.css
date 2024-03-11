@@ -1,0 +1,17 @@
+.bg{
+    background-image: url(https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg);
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+@media only screen and (max-width:700px) {
+    .bg {
+        background-image: url(https://static.vecteezy.com/system/resources/previews/017/157/638/non_2x/storm-clouds-floating-in-a-rainy-day-with-natural-light-cloudscape-scenery-overcast-weather-above-blue-sky-white-and-grey-clouds-scenic-nature-environment-background-free-photo.jpg);
+        height: 130vh;
+    }
+    h1{
+        color: white;
+    }
+}
